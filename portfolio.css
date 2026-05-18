@@ -1,107 +1,88 @@
-/* =====================================================
-   BASE STYLES
-   ===================================================== */
 body {
+    background-color: #0f0c29;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
 }
 
 .highlight {
+    color: #0f6b6b;
 }
 
-a {
-}
-
-/* =====================================================
-   HERO SECTION
-   ===================================================== */
 .hero {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    padding: 120px 20px;
+    text-align: center;
 }
 
 .hero h1 {
+    font-size: 60px;
+    margin: 0;
+}
+.tagline {
+    color: #a29bfe;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
-.tagline {
+.btn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 14px 50px;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: all 0.3s;
 }
 
 .hero-desc {
-}
-
-/* =====================================================
-   BUTTON
-   ===================================================== */
-.btn {
+    color: #b2bec3;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 30px 20px;
 }
 
 .btn:hover {
+    background-color: #ee5a24;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px #ff6b6b;
 }
 
-/* =====================================================
-   ABOUT SECTION
-   ===================================================== */
 .about {
+    background-color: #16213e;
+    padding: 80px 20px;
+    text-align: center;
 }
 
-.about h2 {
+.about h2{
+    font-size: 40px;
+    margin: 0;
 }
 
 .about p {
+    color: #b2bec3;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto;
 }
 
 .about-tags {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0 0 0;
 }
 
 .tag {
-}
-
-/* =====================================================
-   INTERESTS SECTION
-   ===================================================== */
-.interests {
-}
-
-.interests h2 {
-}
-
-.section-subtitle {
-}
-
-.cards {
-}
-
-.card {
-}
-
-.card:hover {
-}
-
-.card h3 {
-}
-
-.card p {
-}
-
-/* =====================================================
-   CONTACT SECTION
-   ===================================================== */
-.contact {
-}
-
-.contact h2 {
-}
-
-.contact p {
-}
-
-.contact-links {
-}
-
-.contact-btn {
-}
-
-.contact-btn:hover {
-}
-
-/* =====================================================
-   FOOTER
-   ===================================================== */
-footer {
+    background-color: #1e1b4b;
+    color: #a29bfe;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid #2d2a5e;
 }
