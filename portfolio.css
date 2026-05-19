@@ -86,3 +86,113 @@ a{
     border-radius: 50px;
     border: 1px solid #2d2a5e;
 }
+
+
+/* =====================================================
+   INTERESTS SECTION
+   ===================================================== */
+.interests {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.interests h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.section-subtitle {
+    color: #b2bec3;
+    font-size: 17px;
+    margin: 15px 0 50px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #1e1b4b;
+    border: 2px solid #2d2a5e;
+    border-radius: 16px;
+    padding: 30px 25px;
+    width: 280px;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    border: 2px solid #ff6b6b;
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px #1a1a3e;
+}
+
+.card h3 {
+    color: #ff6b6b;
+    font-size: 22px;
+    margin: 0 0 12px 0;
+}
+
+.card p {
+    color: #b2bec3;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+/* =====================================================
+   CONTACT SECTION
+   ===================================================== */
+.contact {
+    background-color: #16213e;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.contact p {
+    color: #b2bec3;
+    font-size: 17px;
+    margin: 15px 0 35px 0;
+}
+
+.contact-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    background-color: #1e1b4b;
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid #2d2a5e;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.contact-btn:hover {
+    border: 2px solid #ff6b6b;
+    color: #ff6b6b;
+    transform: translateY(-5px);
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+footer {
+    background-color: #0f0c29;
+    padding: 30px 20px;
+    text-align: center;
+    color: #b2bec3;
+    font-size: 14px;
+}
